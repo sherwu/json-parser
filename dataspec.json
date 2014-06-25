@@ -1,0 +1,2 @@
+{"table": "tweets", "cols": [{"var":"tweet_id","path":["id"]}, {"var":"time","path":["created_at"]},{"var":"lon","path":["geo","coordinates",0]}, {"var":"lat", "path":["geo","coordinates",1]},{"var":"sender_id","path":["user", "id"]}, {"var":"sender_name","path":["user", "screen_name"]}, {"var":"source","path":["source"]},{"var":"reply_to_user_id","path":["in_reply_to_user_id"]}, {"var": "reply_to_tweet_id", "path": ["in_reply_to_status_id"]}, {"var":"lang","path":["lang"]},{"var":"tweet_text","path":["text"], "regex": {"search": "[\\t\\n\\r]+", "replace": " "}}]}  
+
